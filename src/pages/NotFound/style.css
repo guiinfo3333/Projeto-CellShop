@@ -1,0 +1,20 @@
+div.notfound404{
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  margin: 0px auto;
+  min-height: 684px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul.not-found-list{
+  position: relative;
+  list-style: none;
+}
+ul.not-found-list li{
+  margin: 0px auto;
+}
+ul.not-found-list li strong{
+  font-size: 30px;
+}

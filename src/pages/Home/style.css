@@ -1,0 +1,89 @@
+main.content{
+    position: relative;
+    width:100%;
+    height: 100%;
+    padding-top:20px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+/* ================ CSS DA PESQUISA ===========*/
+div.div-search{
+    position: relative;
+    height: 40px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+div.div-search input[type="search"]{
+    position: relative;
+    height: 100%;
+    width: 96%;
+    border-radius: 5px;
+    border:none;
+    background-color: white;
+    padding:5px;
+}
+div.div-search button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-grow: 1;
+    border-left:1px solid #ddd;
+    border-right:none;
+    border-top:none;
+    border-bottom:none;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    float: right;
+    padding:4px;
+    opacity: 0.5;
+}
+div.div-search button:hover{
+    position: relative;
+    opacity: 2;
+}
+div.top-search{
+    position: relative;
+    margin-top: 10px;
+    display: none;
+    width: 100%;
+}
+div.fechar-pesquisa{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+div.fechar-pesquisa img#fechar-pesquisa{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    float:right;
+    cursor: pointer;
+    display: block;
+}
+div.abrir-pesquisa{
+    position: relative;
+    margin-top: 11px;
+    width: 100%;
+    display: block;
+}
+img#abrir-pesquisa{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    float:right;
+    cursor: pointer;
+    display: block;
+}
+div.resultado-pesquisa{
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    display: none;
+}

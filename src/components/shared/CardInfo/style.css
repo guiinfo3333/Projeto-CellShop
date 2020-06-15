@@ -1,0 +1,91 @@
+.card-wd{
+   
+    width: 250px;
+    height: 500px;
+    transition: all 1s;
+}
+.card-wd:hover{
+    box-shadow: 2px 2px 5px rgb(182, 182, 182);
+}
+.card-media{
+    position: relative;
+    max-height:100px;
+}
+.button{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+.titulo{
+    font-size: 8px;
+    height: 50px;
+    color:#1f1f1f;
+    overflow: hidden;
+}
+.subtitulo{
+    font-size: 15px !important;
+    color:green;
+}
+.subtitulo:before{
+    font-size: 15px;
+    content:'R$ '
+}
+.description{
+    height: 85px;
+    font-size: 12px !important;
+    overflow: hidden;
+}
+.button-card{ 
+    color:#1f1f1f;
+    display:flex;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+img.icon{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+
+
+@media (max-width: 814px) {
+    
+    .card-wd{
+        width: 40vw !important;
+        height:  300px !important;
+      
+     
+    }
+    .card-media{
+        background-size:70px  !important;
+        position: relative;
+        top:-80px;
+        
+    }
+    /* .cardaction{
+        position:relative;
+        top:-150px;
+        font-size:12px !important;
+    } */
+    .cardcontent{
+        position: relative;
+        top:-150px;
+        
+    }
+    
+    .titulo{
+        font-size: 11px !important;
+    }
+    .subtitulo{
+        font-size: 12px !important;
+    }
+    .subtitulo:before{
+        font-size: 12px !important;
+      
+    }
+    .description{
+        font-size: 10px !important;
+    }
+
+ }
